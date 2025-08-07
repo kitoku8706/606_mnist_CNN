@@ -1,9 +1,6 @@
 streamlit
-streamlit-drawable-canvas
 tensorflow
 numpy
-matplotlib
-pillow
-scipy
-scikit-image
 opencv-python
+scipy
+Pillow
