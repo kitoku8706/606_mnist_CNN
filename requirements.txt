@@ -1,6 +1,6 @@
 streamlit
+opencv-python
 tensorflow
 numpy
-opencv-python
-scipy
 Pillow
+scipy
