@@ -1,6 +1,13 @@
 streamlit
-opencv-python
+streamlit-drawable-canvas
 tensorflow
 numpy
-Pillow
+matplotlib
+pillow
 scipy
+scikit-image
+opencv-python-headless
+
+
+
+
