@@ -4,4 +4,6 @@ tensorflow
 numpy
 matplotlib
 pillow
+scipy
 scikit-image
+opencv-python-headless
