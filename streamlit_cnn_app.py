@@ -42,8 +42,8 @@ def preprocess_and_predict(image_arr):
         "Manual 100": np.where(enhanced_img > 100, 0, 255).astype("uint8")
     }
     def dilate_image(image, kernel_size=(3,3), iterations=1):
-    kernel = np.ones(kernel_size, np.uint8)
-    return cv2.dilate(image, kernel, iterations=iterations)
+        kernel = np.ones(kernel_size, np.uint8)
+        return cv2.dilate(image, kernel, iterations=iterations)
 
 
     for method_name, binary_img in methods.items():
